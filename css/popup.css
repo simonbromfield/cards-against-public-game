@@ -10,8 +10,8 @@
   position:absolute;
   left:0;
   top:0;
-  width:440px;
-  height:200px;
+  width:50%;
+  height:50%;
   display:none;
   z-index:9999;
   padding:20px;
@@ -31,10 +31,11 @@
   font-family: "Segoe UI", sans-serif;
   text-decoration: none;
 }
-#lorem{
+#warning-text{
 	font-family: "Segoe UI", sans-serif;
 	font-size: 12pt;
   text-align: left;
+  color: #000;
 }
 #popupfoot{
 	font-family: "Segoe UI", sans-serif;
