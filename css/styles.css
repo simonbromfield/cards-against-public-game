@@ -9,15 +9,18 @@ license: MIT
 author: bootply.com
 */
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);*/
 
 html,body {
   height: 100%;
-  font-family: 'Droid Sans Mono', sans-serif;
+  /*font-family: 'Droid Sans Mono', sans-serif;*/
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 p,h1,h2,h3,h4 {
-  font-family: 'Droid Sans Mono', sans-serif;
+  /*font-family: 'Droid Sans Mono', sans-serif;*/
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 hr {
@@ -157,7 +160,9 @@ a {
 }
 
 /* theme */
-.btn,.form-control,.alert,.progress,.panel,.list-group,.well,.list-group-item:first-child {border-radius:1px;box-shadow:0 0 0;}
+.btn,.form-control,.alert,.progress,.panel,.list-group,.well,.list-group-item:first-child {
+  border-radius:15px;
+  box-shadow:0 0 0;}
 .btn {border-color:transparent;}
 .btn-default,.well {
   background-color:#cccccc;
@@ -185,7 +190,7 @@ a {
 }
      
 h3,h4,h5,.panel {
-   color:#555555;
+   color:#000000;
 }
 .panel hr {
    border-color:#efefef;
